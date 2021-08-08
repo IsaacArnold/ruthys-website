@@ -13,7 +13,7 @@ const Hero = () => {
           className="hero-img"
           placeholder="blurred"
         />
-        <div className="hero-content">
+        <div className="hero-content content-container">
           <div className="hero-content-txt">
             <h1>
               Welcome to Ruthy's! Tauranga's favourite cafe located in Tauriko.
