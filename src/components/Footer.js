@@ -34,6 +34,9 @@ const Footer = () => {
             <Instagram className="footer-icon" />
           </div>
         </div>
+        <p className="boo-stamp">
+          Made with &#9829; by Branch Out Online | 2021
+        </p>
       </div>
     </footer>
   );
