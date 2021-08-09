@@ -11,6 +11,18 @@ const HomeTwo = () => {
           Ruthy's was founded in 2020 with the goal of bringing the local
           community quality espresso and delicious cafe-style food.
         </p>
+        <p>
+          Made in-house and sourced from the best local ingredients, our
+          delicious cabinet and kitchen food is just like grandma use to
+          make...warm and comforting.
+        </p>
+        <p>
+          Our Excleso espresso beans are finely roasted by a Tauranga roastery.
+        </p>
+        <p>
+          Come in and experience Ruthy’s traditional hospitality, friendly staff
+          and delicious coffee!
+        </p>
       </div>
       <StaticImage
         src="../images/banana-scones.jpeg"
