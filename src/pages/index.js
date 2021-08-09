@@ -3,6 +3,9 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Seo from "../components/Seo";
 import Hero from "../components/Hero";
+import HomeTwo from "../components/HomeTwo";
+import HomeThree from "../components/HomeThree";
+import HomeFour from "../components/HomeFour";
 
 const IndexPage = ({ data }) => {
   return (
@@ -12,6 +15,9 @@ const IndexPage = ({ data }) => {
         description={data.site.siteMetadata.description}
       />
       <Hero />
+      <HomeTwo />
+      <HomeThree />
+      <HomeFour />
     </Layout>
   );
 };
