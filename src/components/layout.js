@@ -1,7 +1,7 @@
 import React from "react";
 import Seo from "./Seo";
 import Navbar from "./Navbar";
-// Footer import
+import Footer from "./Footer";
 
 import "../styles/normalize.css";
 import "../styles/styles.scss";
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <Seo />
       <Navbar />
       <div className="content">{children}</div>
-      {/* Footer */}
+      <Footer />
     </div>
   );
 };
