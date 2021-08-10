@@ -46,6 +46,7 @@ ul li {
   font-weight: 500;
   text-align: center;
   width: 70%;
+  max-width: 255px;
   margin: 0 auto 30px;
 }
 
@@ -88,8 +89,8 @@ ul li {
     max-width: 165px;
   }
   .hamburger {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
 }
 
@@ -97,17 +98,11 @@ ul li {
 .hero {
   display: flex;
   flex-direction: column;
-  //   min-height: 100vh;
   background-color: $primary-color;
   .hero-grid {
     display: flex;
     flex-direction: column;
-    // height: 100vh;
-    height: calc(100vh - 58px);
     margin-bottom: 20px;
-    .hero-img {
-      height: 400px;
-    }
     .hero-content {
       display: flex;
       flex-direction: column;
@@ -210,6 +205,7 @@ ul li {
   .footer-contact {
     .secondary-btn {
       margin: 10px 0 0 0;
+      max-width: 160px;
     }
   }
   .footer-socials {
@@ -231,5 +227,27 @@ ul li {
     font-size: 0.8rem;
     text-align: center;
     margin-bottom: 30px;
+  }
+}
+
+// Media Queries
+
+// 425px - 768px
+@media (min-width: 425px) {
+  .home-two-content,
+  .home-three-content,
+  .home-four-content {
+    max-width: 550px;
+  }
+  .home-two-grid .home-two-img,
+  .home-three-grid .home-three-img,
+  .home-four-grid .home-four-img {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .primary-btn {
+    margin-left: 0;
   }
 }
