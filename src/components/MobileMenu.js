@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 import Hamburger from "../images/svg/hamburger.svg";
 import Close from "../images/svg/x.svg";
 
@@ -7,14 +8,18 @@ const MobileMenu = () => {
   const [showMenu, SetShowMenu] = useState(false);
 
   let menu;
-  let menuBg;
 
   if (showMenu) {
     menu = (
-      <div className="mobile-menu">
+      <div className="mobile-menu visible">
         <div className="mobile-menu-head">
-          <h2>Ruthy's</h2>
-          <Close onClick={() => SetShowMenu(false)} />
+          <StaticImage
+            src="../images/logo-removebg-preview.png"
+            alt="Ruthy's logo"
+            className="logo"
+            placeholder="blurred"
+          />
+          <Close onClick={() => SetShowMenu(false)} className="close-icon" />
         </div>
         <ul className="mobile-ul">
           <li>
@@ -55,7 +60,6 @@ const MobileMenu = () => {
   return (
     <div>
       <Hamburger className="hamburger" onClick={() => SetShowMenu(!showMenu)} />
-      {menuBg}
       {menu}
     </div>
   );
