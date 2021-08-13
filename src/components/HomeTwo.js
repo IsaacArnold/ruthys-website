@@ -23,6 +23,9 @@ const HomeTwo = () => {
           Come in and experience Ruthy’s traditional hospitality, friendly staff
           and delicious coffee!
         </p>
+        <Link to="menus" className="primary-btn laptop-home-two-btn">
+          Explore our menus
+        </Link>
       </div>
       <StaticImage
         src="../images/banana-scones.jpeg"
@@ -31,7 +34,7 @@ const HomeTwo = () => {
         placeholder="blurred"
         layout={"fullWidth"}
       />
-      <Link to="menus" className="primary-btn">
+      <Link to="menus" className="primary-btn home-two-btn">
         Explore our menus
       </Link>
     </section>

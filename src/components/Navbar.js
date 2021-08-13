@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import MobileMenu from "./MobileMenu";
 
@@ -12,17 +13,23 @@ const Navbar = () => {
           className="logo"
           placeholder="blurred"
         />
-        {/* <ul>
-        <li>
-          <Link to="/#">Menu</Link>
-        </li>
-        <li>
-          <Link to="/#">Catering & Functions</Link>
-        </li>
-        <li>
-          <Link to="/#">Contact</Link>
-        </li>
-      </ul> */}
+        <ul className="laptop-menu">
+          <li>
+            <Link to="/#" className="laptop-menu-link">
+              Menus
+            </Link>
+          </li>
+          <li>
+            <Link to="/#" className="laptop-menu-link">
+              Catering & Functions
+            </Link>
+          </li>
+          <li>
+            <Link to="/#" className="laptop-menu-link">
+              Contact
+            </Link>
+          </li>
+        </ul>
         <MobileMenu />
       </div>
     </nav>

@@ -23,7 +23,7 @@ const MobileMenu = () => {
               className="mobile-li"
               onClick={() => SetShowMenu(false)}
             >
-              Menu
+              Menus
             </Link>
           </li>
           <li>
