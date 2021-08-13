@@ -11,6 +11,9 @@ const HomeThree = () => {
           With our spacious dining area, Ruthy's is the perfect place for you to
           host your next function.
         </p>
+        <Link to="catering" className="primary-btn laptop-home-three-btn">
+          Find out more
+        </Link>
       </div>
       <StaticImage
         src="../images/function-two.jpeg"
@@ -19,7 +22,7 @@ const HomeThree = () => {
         placeholder="blurred"
         layout={"fullWidth"}
       />
-      <Link to="catering" className="primary-btn">
+      <Link to="catering" className="primary-btn home-three-btn">
         Find out more
       </Link>
     </section>
