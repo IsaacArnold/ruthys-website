@@ -285,6 +285,29 @@ ul li {
             list-style-type: none;
             text-decoration: none;
             color: $secondary-color;
+            display: block;
+            position: relative;
+            // Hover animation from https://css-irl.info/animating-underlines/
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 0.1em;
+              background-color: $secondary-color;
+              opacity: 0;
+              transition: opacity 300ms, transform 300ms;
+            }
+            &::after {
+              opacity: 1;
+              transform: scale(0);
+              transform-origin: center;
+            }
+            &:hover::after,
+            &:focus::after {
+              transform: scale(1);
+            }
           }
         }
       }
@@ -330,6 +353,10 @@ ul li {
       margin: auto;
       text-align: center;
       margin-top: 30px;
+      transition: 0.3s;
+      &:hover {
+        transform: translateY(-5px);
+      }
     }
     .home-two-img {
       grid-area: homeTwoImg;
@@ -366,6 +393,10 @@ ul li {
       margin: auto;
       text-align: center;
       margin-top: 30px;
+      transition: 0.3s;
+      &:hover {
+        transform: translateY(-5px);
+      }
     }
     .home-three-img {
       grid-area: homeThreeImg;
@@ -402,6 +433,10 @@ ul li {
       margin: auto;
       text-align: center;
       margin-top: 30px;
+      transition: 0.3s;
+      &:hover {
+        transform: translateY(-5px);
+      }
     }
     .home-four-img {
       grid-area: homeFourImg;
@@ -412,9 +447,6 @@ ul li {
     }
     .home-four-btn {
       display: none;
-    }
-    .laptop-home-four-btn {
-      display: flex;
     }
   }
 
@@ -429,6 +461,10 @@ ul li {
       .footer-contact {
         .secondary-btn {
           width: 200px;
+          transition: 0.3s;
+          &:hover {
+            transform: translateY(-5px);
+          }
         }
       }
     }

@@ -30,8 +30,18 @@ const Footer = () => {
         <div className="footer-socials">
           <h3>Socials</h3>
           <div className="footer-icon-container">
-            <Facebook className="footer-icon" />
-            <Instagram className="footer-icon" />
+            <Link
+              to="https://www.facebook.com/Ruthys-110355034016366"
+              className="footer-icon"
+            >
+              <Facebook className="footer-icon" />
+            </Link>
+            <Link
+              to="https://www.instagram.com/ruthys_coffeebar/"
+              className="footer-icon"
+            >
+              <Instagram className="footer-icon" />
+            </Link>
           </div>
         </div>
       </div>
