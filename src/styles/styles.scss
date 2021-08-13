@@ -72,6 +72,7 @@ ul li {
 .content-container {
   width: 85%;
   margin: 0 auto;
+  max-width: 1800px;
 }
 
 // Navbar
@@ -415,5 +416,34 @@ ul li {
     .laptop-home-four-btn {
       display: flex;
     }
+  }
+
+  .footer {
+    .content-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 60px;
+      max-width: 1000px;
+      .footer-contact {
+        .secondary-btn {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .hero-grid {
+    max-width: 1800px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1900px) {
+  .content-container {
+    width: 95%;
   }
 }
