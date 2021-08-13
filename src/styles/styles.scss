@@ -244,6 +244,19 @@ ul li {
 }
 
 // Media Queries
+@media (min-width: 375px) and (max-width: 768px) {
+  .hero {
+    .hero-grid {
+      .hero-content {
+        .hero-content-txt {
+          h1 {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
 // 425px - 768px
 @media (min-width: 425px) {
   .home-two-content,
@@ -326,6 +339,13 @@ ul li {
       .hero-content {
         grid-area: heroContent;
         margin-top: 0;
+        .hero-content-txt {
+          margin-top: 60px;
+          max-width: 80%;
+          h1 {
+            font-size: 2.5rem;
+          }
+        }
         .scrollwheel {
           margin-bottom: 10px;
         }
@@ -475,6 +495,20 @@ ul li {
   .hero-grid {
     max-width: 1800px;
     margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    .hero-grid {
+      .hero-content {
+        .hero-content-txt {
+          h1 {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
   }
 }
 
