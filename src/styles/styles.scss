@@ -88,7 +88,7 @@ ul li {
       display: none;
     }
   }
-  .logo {
+  .logo-container {
     width: 40%;
     max-width: 165px;
   }
@@ -164,6 +164,7 @@ ul li {
       color: $secondary-color;
       height: 100%;
       .hero-content-txt {
+        margin-top: 30px;
         h1 {
           max-width: 95%;
         }

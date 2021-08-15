@@ -14,23 +14,25 @@ const Navbar = () => {
       {/* Moblie menu */}
       <div className="mobile-menu">
         <div className="mobile-menu-head">
-          <StaticImage
-            src="../images/logo-removebg-preview.png"
-            alt="Ruthy's logo"
-            className="logo"
-            placeholder="blurred"
-          />
+          <Link to="/" className="logo-container">
+            <StaticImage
+              src="../images/logo-removebg-preview.png"
+              alt="Ruthy's logo"
+              className="logo"
+              placeholder="blurred"
+            />
+          </Link>
           <Close className="close-icon" onClick={() => showMenu()} />
         </div>
         <ul className="mobile-ul">
           <li>
-            <Link to="menus" className="mobile-li" onClick={() => showMenu()}>
+            <Link to="/menus" className="mobile-li" onClick={() => showMenu()}>
               Menus
             </Link>
           </li>
           <li>
             <Link
-              to="catering"
+              to="/catering"
               className="mobile-li"
               onClick={() => showMenu()}
             >
@@ -38,7 +40,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="contact" className="mobile-li" onClick={() => showMenu()}>
+            <Link
+              to="/contact"
+              className="mobile-li"
+              onClick={() => showMenu()}
+            >
               Contact
             </Link>
           </li>
@@ -46,25 +52,27 @@ const Navbar = () => {
       </div>
       {/* ./ Mobile menu */}
       <div className="content-container">
-        <StaticImage
-          src="../images/logo-removebg-preview.png"
-          alt="Ruthy's logo"
-          className="logo"
-          placeholder="blurred"
-        />
+        <Link to="/" className="logo-container">
+          <StaticImage
+            src="../images/logo-removebg-preview.png"
+            alt="Ruthy's logo"
+            className="logo"
+            placeholder="blurred"
+          />
+        </Link>
         <ul className="laptop-menu">
           <li>
-            <Link to="/#" className="laptop-menu-link">
+            <Link to="/menus" className="laptop-menu-link">
               Menus
             </Link>
           </li>
           <li>
-            <Link to="/#" className="laptop-menu-link">
+            <Link to="/catering" className="laptop-menu-link">
               Catering & Functions
             </Link>
           </li>
           <li>
-            <Link to="/#" className="laptop-menu-link">
+            <Link to="/contact" className="laptop-menu-link">
               Contact
             </Link>
           </li>

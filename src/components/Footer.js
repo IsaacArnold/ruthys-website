@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="footer-contact">
           <h3>Contact</h3>
           <p>Get in touch with the team!</p>
-          <Link to="contact" className="secondary-btn">
+          <Link to="/contact" className="secondary-btn">
             Contact Us
           </Link>
         </div>

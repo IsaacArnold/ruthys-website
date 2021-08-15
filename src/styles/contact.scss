@@ -1,0 +1,90 @@
+// Imports
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+// Variables
+$primary-color: #1a342a;
+$secondary-color: #dfd5d5;
+
+.content-container {
+  h1 {
+    margin-top: 30px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    .form-section {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-top: 30px;
+      }
+      input,
+      textarea {
+        height: 3rem;
+        padding-left: 10px;
+        outline-color: $primary-color;
+        border-radius: 8px;
+        border: 1px solid transparent;
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 1rem;
+        max-width: 400px;
+        &::placeholder {
+          font-weight: 300;
+          font-size: 1rem;
+        }
+      }
+      textarea {
+        height: 6rem;
+      }
+    }
+    button {
+      background-color: $primary-color;
+      color: $secondary-color;
+      padding: 20px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      text-align: center;
+      margin: 30px 0;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .content-container {
+    width: 88%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1024px) {
+  button {
+    transition: 0.3s;
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1350px) {
+  .content-container {
+    width: 91%;
+  }
+}
+
+@media (min-width: 1350px) {
+  .content-container {
+    width: 92%;
+  }
+}
