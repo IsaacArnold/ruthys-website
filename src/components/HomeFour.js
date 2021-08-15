@@ -5,7 +5,7 @@ const HomeFour = () => {
   return (
     <section className="home-four-grid content-container">
       <div className="home-four-content">
-        <h2>Come in, relax and enjoy Ruthy's Cafe & Eatery</h2>
+        <h2>Come in, relax and enjoy Ruthy's Cafe & Eatery.</h2>
         <p>
           Our friendly staff would love to welcome you into our beautiful
           Tauranga cafe. Come and experience the Ruthy's hospitality everyone
