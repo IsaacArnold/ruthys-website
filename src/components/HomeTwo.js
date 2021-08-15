@@ -6,7 +6,7 @@ const HomeTwo = () => {
   return (
     <section className="home-two-grid content-container">
       <div className="home-two-content">
-        <h2>Great coffee, Nana's muffins and a great yarn...</h2>
+        <h2>Great coffee, Nana's muffins and great yarns...</h2>
         <p>
           Ruthy's was founded in 2020 with the goal of bringing the local
           community quality espresso and delicious cafe-style food.
