@@ -15,7 +15,7 @@ const HomeFour = () => {
         <p>See you soon!</p>
       </div>
       <StaticImage
-        src="../images/food.jpeg"
+        src="../images/counter.jpeg"
         alt="Image of bread rolls"
         className="home-four-img"
         placeholder="blurred"

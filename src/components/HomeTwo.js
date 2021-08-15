@@ -6,22 +6,15 @@ const HomeTwo = () => {
   return (
     <section className="home-two-grid content-container">
       <div className="home-two-content">
-        <h2>Modern cafe dining with a tradtional twist...</h2>
+        <h2>Great coffee, Nana's muffins and a great yarn...</h2>
         <p>
           Ruthy's was founded in 2020 with the goal of bringing the local
           community quality espresso and delicious cafe-style food.
         </p>
         <p>
-          Made in-house and sourced from the best local ingredients, our
-          delicious cabinet and kitchen food is just like grandma use to
-          make...warm and comforting.
-        </p>
-        <p>
-          Our Excleso espresso beans are finely roasted by a Tauranga roastery.
-        </p>
-        <p>
-          Come in and experience Ruthy’s traditional hospitality, friendly staff
-          and delicious coffee!
+          With our home-style eats and warm banter, you'll struggle to find a
+          better start to your day than with a coffee and scone from the team at
+          Ruthy's
         </p>
         <Link to="menus" className="primary-btn laptop-home-two-btn">
           Explore our menus

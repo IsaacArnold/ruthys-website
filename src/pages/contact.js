@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <Layout>
       <Seo title="Contact Us" description="Test description" />
-      <div className="content-container">
+      <div className="contact-content-container">
         <h1>Contact Us</h1>
         <p>Fill out the form below, and one of the team will be in touch.</p>
         <form name="Contact Form" method="POST" data-netlify="true">
