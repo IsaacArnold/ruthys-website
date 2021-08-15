@@ -238,9 +238,6 @@ ul li {
     margin: 30px 0;
     height: 200px;
   }
-  .laptop-home-four-btn {
-    display: none;
-  }
 }
 
 // Footer
@@ -496,27 +493,12 @@ ul li {
       width: 80%;
       margin: auto;
     }
-    .laptop-home-four-btn {
-      display: flex;
-      justify-content: center;
-      align-self: center;
-      margin: auto;
-      text-align: center;
-      margin-top: 30px;
-      transition: 0.3s;
-      &:hover {
-        transform: translateY(-5px);
-      }
-    }
     .home-four-img {
       grid-area: homeFourImg;
       width: 100%;
       height: 100%;
       margin: 0;
       max-width: 100%;
-    }
-    .home-four-btn {
-      display: none;
     }
   }
 
