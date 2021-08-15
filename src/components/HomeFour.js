@@ -14,9 +14,6 @@ const HomeFour = () => {
           pleasures.
         </p>
         <p>See you soon!</p>
-        <Link to="menus" className="primary-btn laptop-home-four-btn">
-          Find out more
-        </Link>
       </div>
       <StaticImage
         src="../images/food.jpeg"
@@ -25,9 +22,6 @@ const HomeFour = () => {
         placeholder="blurred"
         layout={"fullWidth"}
       />
-      <Link to="menus" className="primary-btn home-four-btn">
-        Find out more
-      </Link>
     </section>
   );
 };
