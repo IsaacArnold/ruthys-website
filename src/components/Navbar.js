@@ -24,17 +24,21 @@ const Navbar = () => {
         </div>
         <ul className="mobile-ul">
           <li>
-            <Link to="/#" className="mobile-li">
+            <Link to="menus" className="mobile-li" onClick={() => showMenu()}>
               Menus
             </Link>
           </li>
           <li>
-            <Link to="/#" className="mobile-li">
+            <Link
+              to="catering"
+              className="mobile-li"
+              onClick={() => showMenu()}
+            >
               Catering & Functions
             </Link>
           </li>
           <li>
-            <Link to="/#" className="mobile-li">
+            <Link to="contact" className="mobile-li" onClick={() => showMenu()}>
               Contact
             </Link>
           </li>
