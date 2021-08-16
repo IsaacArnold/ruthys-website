@@ -19,8 +19,8 @@ const Hero = () => {
         <div className="hero-content content-container">
           <div className="hero-content-txt">
             <h1>
-              Welcome to Ruthy's! Tauriko's favourite cafe for home-style eats,
-              great coffee and even better banter.
+              Welcome to Ruthy's Cafe & Eatery! Tauriko's favourite cafe for
+              home-style eats, great coffee and even better banter.
             </h1>
           </div>
           <div className="scrollwheel">
