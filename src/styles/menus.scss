@@ -33,7 +33,6 @@ $secondary-color: #dfd5d5;
   .menus-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    // Making 1fr to accommodate for the 100vh height of div
     grid-template-rows: 1fr;
     grid-template-areas: "menusImg menusContent";
     width: 100%;
