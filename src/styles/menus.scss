@@ -43,6 +43,10 @@ $secondary-color: #dfd5d5;
       align-self: center;
       width: 80%;
       margin: auto;
+      .laptop-menus-btn-container {
+        display: flex;
+        flex-direction: column;
+      }
     }
     .laptop-menus-btn {
       display: flex;
@@ -65,9 +69,6 @@ $secondary-color: #dfd5d5;
     }
     .menus-btn {
       display: none;
-    }
-    .laptop-menus-btn {
-      display: flex;
     }
   }
 }

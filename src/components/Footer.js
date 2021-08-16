@@ -45,7 +45,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="boo-stamp">Made with &#9829; by Branch Out Online | 2021</p>
+      <p className="boo-stamp">
+        &#169; 2021 Ruthy's Coffee Bar & Eatery | Made with &#9829; by Branch
+        Out Online
+      </p>
     </footer>
   );
 };
