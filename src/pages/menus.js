@@ -36,8 +36,8 @@ const Menus = () => {
           </div>
         </div>
         <StaticImage
-          src="../images/banana-scones.jpeg"
-          alt="Image of banana scones"
+          src="../images/cookies.jpeg"
+          alt="Image of chocolate cookies on a baking tray"
           className="menus-img"
           placeholder="blurred"
           layout={"fullWidth"}
