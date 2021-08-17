@@ -21,7 +21,7 @@ const Contact = () => {
               type="text"
               name="fullName"
               id="fullName"
-              placeholder="John Doe"
+              placeholder="John Smith"
               required={true}
             />
           </div>

@@ -14,7 +14,7 @@ const Menus = () => {
       <Seo title="Ruthy's Menus" description="Menu page description" />
       <section className="menus-grid content-container">
         <div className="menus-content">
-          <h2>Menus</h2>
+          <h1>Menus</h1>
           <p>
             Ruthy's was founded in 2020 with the goal of bringing the local
             community quality espresso and delicious cafe-style food.

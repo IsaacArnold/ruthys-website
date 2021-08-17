@@ -310,13 +310,15 @@ ul li {
   .home-two-content,
   .home-three-content,
   .home-four-content,
-  .menus-content {
+  .menus-content,
+  .catering-content {
     max-width: 550px;
   }
   .home-two-grid .home-two-img,
   .home-three-grid .home-three-img,
   .home-four-grid .home-four-img,
-  .menus-grid .menus-img {
+  .menus-grid .menus-img,
+  .catering-grid .catering-img {
     max-width: 550px;
   }
 }
