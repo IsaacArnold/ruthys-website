@@ -1,0 +1,75 @@
+// Imports
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+// Variables
+$primary-color: #1a342a;
+$secondary-color: #dfd5d5;
+
+.catering-grid {
+  display: flex;
+  flex-direction: column;
+  .catering-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: $primary-color;
+    .catering-content-txt {
+      margin-top: 30px;
+      h1 {
+        max-width: 95%;
+        font-weight: 500;
+        font-size: 1.8rem;
+      }
+    }
+    .laptop-catering-btn-container {
+      display: none;
+    }
+  }
+  .catering-img {
+    margin: 30px 0;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .catering-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "cateringImg cateringContent";
+    width: 100%;
+    margin-top: 0;
+    .catering-content {
+      grid-area: cateringContent;
+      align-self: center;
+      width: 80%;
+      margin: auto;
+      .laptop-catering-btn-container {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .laptop-catering-btn {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      margin: auto;
+      text-align: center;
+      margin-top: 30px;
+      transition: 0.3s;
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+    .catering-img {
+      grid-area: cateringImg;
+      width: 100%;
+      height: 93vh;
+      margin: 0;
+      max-width: 100%;
+    }
+    .catering-btn {
+      display: none;
+    }
+  }
+}
