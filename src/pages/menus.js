@@ -16,8 +16,14 @@ const Menus = () => {
         <div className="menus-content">
           <h1>Menus</h1>
           <p>
-            Ruthy's was founded in 2020 with the goal of bringing the local
-            community quality espresso and delicious cafe-style food.
+            Ruthy's is all about bringing family cooking into the cafe. We bake
+            our muffins, scones, slices and cakes from scratch - just like Nana
+            use to.
+          </p>
+          <p>
+            Whether you are after breakfast, brunch or just a sneaky treat,
+            Ruthy's has you covered. Come in grab a coffee and a scone - we are
+            all about enjoying life's simple pleasures!
           </p>
           <div className="laptop-menus-btn-container">
             <Link to="/menus" className="primary-btn laptop-menus-btn">

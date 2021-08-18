@@ -95,6 +95,8 @@ ul li {
   .hamburger {
     width: 35px;
     height: 35px;
+    cursor: pointer;
+    color: $secondary-color;
   }
   .mobile-menu {
     position: absolute;
@@ -119,6 +121,7 @@ ul li {
         width: 30px;
         height: 30px;
         color: $secondary-color;
+        cursor: pointer;
       }
     }
     .mobile-ul {

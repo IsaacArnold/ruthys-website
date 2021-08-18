@@ -19,8 +19,16 @@ const Catering = () => {
         <div className="catering-content">
           <h1>Ruthy's Catering & Functions</h1>
           <p>
-            Ruthy's was founded in 2020 with the goal of bringing the local
-            community quality espresso and delicious cafe-style food.
+            Ruthy's offer a range of delicious catering options. Our dedicated
+            in-house chefs source the freshest local ingredients and can cater
+            to any dietry requirements.
+          </p>
+          <p>
+            In addition, our spacious dining area is perfect to host your next
+            function. Our space can be used for events such as baby showers,
+            large team meetings, birthday parties or other special ocassions.
+            Let the Ruthy's team take care of everything from venue set-up to
+            catering.
           </p>
           <div className="laptop-catering-btn-container">
             <Link to="/catering" className="primary-btn laptop-catering-btn">
