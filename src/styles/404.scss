@@ -1,0 +1,74 @@
+// Imports
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+// Variables
+$primary-color: #1a342a;
+$secondary-color: #dfd5d5;
+
+.notfound-grid {
+  display: flex;
+  flex-direction: column;
+  .notfound-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: $primary-color;
+    .notfound-content-txt {
+      margin-top: 30px;
+      h1 {
+        max-width: 95%;
+        font-weight: 500;
+      }
+    }
+    .laptop-notfound-btn-container {
+      display: none;
+    }
+  }
+  .notfound-img {
+    margin: 30px 0;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .notfound-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "notfoundContent notfoundImg";
+    width: 100%;
+    margin-top: 0;
+    .notfound-content {
+      grid-area: notfoundContent;
+      align-self: center;
+      width: 80%;
+      margin: auto;
+      .laptop-notfound-btn-container {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .laptop-notfound-btn {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      margin: auto;
+      text-align: center;
+      margin-top: 30px;
+      transition: 0.3s;
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+    .notfound-img {
+      grid-area: notfoundImg;
+      width: 100%;
+      height: 93vh;
+      margin: 0;
+      max-width: 100%;
+    }
+    .notfound-btn {
+      display: none;
+    }
+  }
+}
