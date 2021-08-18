@@ -18,7 +18,7 @@ const Menus = () => {
           <p>
             Ruthy's is all about bringing family cooking into the cafe. We bake
             our muffins, scones, slices and cakes from scratch - just like Nana
-            use to.
+            used to.
           </p>
           <p>
             Whether you are after breakfast, brunch or just a sneaky treat,
