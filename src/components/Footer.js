@@ -34,6 +34,7 @@ const Footer = () => {
               href="https://www.facebook.com/Ruthys-110355034016366"
               className="footer-icon"
               target="_blank"
+              rel="noreferrer"
             >
               <Facebook className="footer-icon" />
             </a>
@@ -41,6 +42,7 @@ const Footer = () => {
               href="https://www.instagram.com/ruthys_coffeebar/"
               className="footer-icon"
               target="_blank"
+              rel="noreferrer"
             >
               <Instagram className="footer-icon" />
             </a>
