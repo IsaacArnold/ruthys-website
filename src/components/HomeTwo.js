@@ -22,7 +22,7 @@ const HomeTwo = () => {
       </div>
       <StaticImage
         src="../images/banana-scones.jpeg"
-        alt="Image of banana scones"
+        alt="Image of banana scones on a serving board"
         className="home-two-img"
         placeholder="blurred"
         layout={"fullWidth"}

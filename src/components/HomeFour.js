@@ -16,7 +16,7 @@ const HomeFour = () => {
       </div>
       <StaticImage
         src="../images/counter.jpeg"
-        alt="Image of bread rolls"
+        alt="Image of food sitting on cafe counter with sunlight hitting it perfectly"
         className="home-four-img"
         placeholder="blurred"
         layout={"fullWidth"}
