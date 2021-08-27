@@ -35,6 +35,7 @@ const Footer = () => {
               className="footer-icon"
               target="_blank"
               rel="noreferrer"
+              aria-label="Link to Facebook page"
             >
               <Facebook className="footer-icon" />
             </a>
@@ -43,6 +44,7 @@ const Footer = () => {
               className="footer-icon"
               target="_blank"
               rel="noreferrer"
+              aria-label="Link to Instagram page"
             >
               <Instagram className="footer-icon" />
             </a>
