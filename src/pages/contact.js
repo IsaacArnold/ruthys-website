@@ -13,7 +13,12 @@ const Contact = () => {
       <div className="contact-content-container">
         <h1>Contact Us</h1>
         <p>Fill out the form below and one of the team will be in touch.</p>
-        <form name="Contact Form" method="POST" data-netlify="true">
+        <form
+          name="Contact Form"
+          method="POST"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+        >
           <input type="hidden" name="form-name" value="Contact Form" />
           <div className="form-section">
             <label htmlFor="fullName">Full Name:</label>
