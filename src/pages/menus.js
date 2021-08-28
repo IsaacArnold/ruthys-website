@@ -11,7 +11,10 @@ import "../styles/menus.scss";
 const Menus = () => {
   return (
     <Layout>
-      <Seo title="Ruthy's Menus" description="Menu page description" />
+      <Seo
+        title="Ruthy's Menus"
+        description="Explore our delicious cafe and catering menus. We can cater to most dietery requirements. "
+      />
       <section className="menus-grid content-container">
         <div className="menus-content">
           <h1>Menus</h1>

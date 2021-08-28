@@ -13,7 +13,7 @@ const Catering = () => {
     <Layout>
       <Seo
         title="Ruthy's Catering & Functions"
-        description="Catering and functions page description"
+        description="Need your next event catered? What about a space to hold your next function? Ruthy's has you covered. Explore our catering and function options today!"
       />
       <section className="catering-grid content-container">
         <div className="catering-content">

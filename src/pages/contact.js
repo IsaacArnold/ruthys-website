@@ -9,7 +9,10 @@ import "../styles/contact.scss";
 const Contact = () => {
   return (
     <Layout>
-      <Seo title="Contact Us" description="Test description" />
+      <Seo
+        title="Contact Us"
+        description="Contact the team at Ruthy's. We can help you with event catering, function spaces or answer any questions you may have."
+      />
       <div className="contact-content-container">
         <h1>Contact Us</h1>
         <p>Fill out the form below and one of the team will be in touch.</p>
