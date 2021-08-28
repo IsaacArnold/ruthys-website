@@ -16,10 +16,17 @@ const Contact = () => {
         <form
           name="Contact Form"
           method="POST"
+          onSubmit="submit"
           netlify-honeypot="bot-field"
           data-netlify="true"
+          action="/success"
         >
           <input type="hidden" name="form-name" value="Contact Form" />
+          <input
+            type="hidden"
+            name="subject"
+            value="Ruthy's website has a new message."
+          />
           <div className="form-section">
             <label htmlFor="fullName">Full Name:</label>
             <input
