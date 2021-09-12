@@ -27,5 +27,6 @@ module.exports = {
     titleTemplate: "%s | Ruthy's Coffee Bar & Eatery Tauranga",
     description: `Ruthy's Coffee Bar & Eatery is a popular Tauranga Cafe located in Tauriko. Open for breakfast and lunch serving delicious cabinet and kitchen food with amazing Excelso espresso.`,
     siteUrl: `https://ruthyscafe.netlify.app/`,
+    image: "./src/images/people.jpeg",
   },
 };
