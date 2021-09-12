@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 import { useStaticQuery, graphql } from "gatsby";
-import OgImage from "../images/people.jpeg";
 
 const SEO = ({ title, description, image, article }) => {
   const { pathname } = useLocation();
@@ -20,8 +19,7 @@ const SEO = ({ title, description, image, article }) => {
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    // image: `${siteUrl}${image || defaultImage}`,
-    image: OgImage,
+    image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   };
 
@@ -60,6 +58,7 @@ const query = graphql`
         titleTemplate
         defaultDescription: description
         siteUrl: siteUrl
+        image
       }
     }
   }
