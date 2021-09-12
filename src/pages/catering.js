@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
-import Seo from "../components/Seo";
+import SEO from "../components/SEO";
 
 import "../styles/normalize.css";
 import "../styles/styles.scss";
@@ -11,7 +11,7 @@ import "../styles/catering.scss";
 const Catering = () => {
   return (
     <Layout>
-      <Seo
+      <SEO
         title="Ruthy's Catering & Functions"
         description="Need your next event catered? What about a space to hold your next function? Ruthy's has you covered. Explore our catering and function options today!"
       />

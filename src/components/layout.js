@@ -1,5 +1,5 @@
 import React from "react";
-import Seo from "./Seo";
+import SEO from "./SEO";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -9,7 +9,7 @@ import "../styles/styles.scss";
 const Layout = ({ children }) => {
   return (
     <div className="layout">
-      <Seo />
+      <SEO />
       <Navbar />
       <div className="content">{children}</div>
       <Footer />

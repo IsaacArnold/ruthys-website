@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/Layout";
-import Seo from "../components/Seo";
+import SEO from "../components/SEO";
 
 import "../styles/contact.scss";
 
 const SuccessPage = () => {
   return (
     <Layout>
-      <Seo
+      <SEO
         title="Thank You!"
         description="Thank you for submitting your message. One of the team will be in touch soon."
       />

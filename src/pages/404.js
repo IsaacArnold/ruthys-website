@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
-import Seo from "../components/Seo";
+import SEO from "../components/SEO";
 
 import "../styles/normalize.css";
 import "../styles/styles.scss";
@@ -11,7 +11,7 @@ import "../styles/404.scss";
 const NotFoundPage = () => {
   return (
     <Layout>
-      <Seo
+      <SEO
         title="Error: Page Not Found"
         description="The page you are looking for has either been removed or doesn't exist"
       />

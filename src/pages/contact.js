@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Seo from "../components/Seo";
+import SEO from "../components/SEO";
 
 import "../styles/normalize.css";
 import "../styles/styles.scss";
@@ -9,7 +9,7 @@ import "../styles/contact.scss";
 const Contact = () => {
   return (
     <Layout>
-      <Seo
+      <SEO
         title="Contact Us"
         description="Contact the team at Ruthy's. We can help you with event catering, function spaces or answer any questions you may have."
       />
