@@ -14,7 +14,7 @@ const HomeTwo = () => {
         <p>
           With our home-style eats and warm banter, you'll struggle to find a
           better start to your day than with a coffee and scone from the team at
-          Ruthy's
+          Ruthy's.
         </p>
         <Link to="menus" className="primary-btn laptop-home-two-btn">
           Explore our menus
