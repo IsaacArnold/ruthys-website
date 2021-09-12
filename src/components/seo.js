@@ -63,14 +63,14 @@ const query = graphql`
   }
 `;
 
-Seo.propTypes = {
+SEO.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,
   article: PropTypes.bool,
 };
 
-Seo.defaultProps = {
+SEO.defaultProps = {
   title: null,
   description: null,
   image: null,
