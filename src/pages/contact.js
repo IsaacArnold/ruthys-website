@@ -7,10 +7,6 @@ import "../styles/styles.scss";
 import "../styles/contact.scss";
 
 const Contact = () => {
-  function handleSubmit(event) {
-    event.preventDefault();
-  }
-
   return (
     <Layout>
       <SEO
@@ -23,7 +19,6 @@ const Contact = () => {
         <form
           name="Contact Form"
           method="POST"
-          onSubmit={handleSubmit}
           netlify-honeypot="bot-field"
           data-netlify="true"
           action="/success"
