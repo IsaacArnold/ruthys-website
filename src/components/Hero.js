@@ -5,7 +5,7 @@ import Scrollwheel from "../images/svg/scrollwheel.svg";
 
 const Hero = () => {
   const height = use100vh();
-  const newHeight = height ? height * 0.88 : "88vh";
+  const newHeight = height ? height * 1 : "100vh";
 
   return (
     <header className="hero">
