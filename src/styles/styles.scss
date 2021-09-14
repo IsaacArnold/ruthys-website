@@ -13,6 +13,11 @@ $secondary-color: #dfd5d5;
   scroll-behavior: smooth;
 }
 
+html {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background-color: $secondary-color;
 }
@@ -249,6 +254,7 @@ ul li {
 .footer {
   display: flex;
   flex-direction: column;
+  margin-top: auto;
   background-color: $primary-color;
   color: $secondary-color;
   h3 {
