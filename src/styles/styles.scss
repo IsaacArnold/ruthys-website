@@ -298,6 +298,10 @@ ul li {
     font-size: 0.8rem;
     text-align: center;
     margin: 0 30px 30px 30px;
+    a {
+      color: $secondary-color;
+      text-decoration: none;
+    }
   }
 }
 

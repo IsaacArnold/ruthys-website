@@ -52,8 +52,15 @@ const Footer = () => {
         </div>
       </div>
       <p className="boo-stamp">
-        &#169; 2021 Ruthy's Coffee Bar & Eatery | Made with &#9829; by Branch
-        Out Online
+        &#169; 2021 Ruthy's Coffee Bar & Eatery | Made with &#9829; by{" "}
+        <a
+          href="https://branchoutonline.net/"
+          rel="noreferrer"
+          target="_blank"
+          aria-label="Branch Out Online"
+        >
+          Branch Out Online
+        </a>
       </p>
     </footer>
   );
